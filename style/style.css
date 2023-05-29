@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Magical Demo';
-  src: url("../../fonts/MagicalDemo.otf"); }
+  src: url("./fonts/MagicalDemo.otf"); }
 header {
   background-color: #5c2f75;
   height: fit-content; }
@@ -12,6 +12,8 @@ header {
     display: flex;
     justify-content: center; }
   header .button-85 {
+    font-size: 3rem;
+    font-family: 'Magical Demo';
     margin-top: 0%;
     margin-bottom: 2rem;
     font-size: 2rem;
@@ -29,7 +31,7 @@ header {
     touch-action: manipulation; }
     @media screen and (max-width: 576px) {
       header .button-85 {
-        font-size: 1rem; } }
+        font-size: 2rem; } }
   header .button-85:before {
     content: "";
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
@@ -120,7 +122,7 @@ h4 {
 
 @font-face {
   font-family: 'Magical Demo';
-  src: url("../../fonts/MagicalDemo.otf"); }
+  src: url("./fonts/MagicalDemo.otf"); }
 .logo {
   float: right;
   /* Alinea el logo a la derecha */
@@ -143,7 +145,7 @@ h1 {
 #particles-js {
   height: 100vh;
   width: auto;
-  background-image: url("../../images/logo_completo_nombre.png");
+  background-image: url("./images/logo_completo_nombre.png");
   background-color: #5c2f75;
   background-position: center;
   background-repeat: no-repeat;

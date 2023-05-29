@@ -1,18 +1,19 @@
 @font-face {
     font-family: 'Magical Demo';
-    src: url('../../fonts/MagicalDemo.otf');
+    src: url('./fonts/MagicalDemo.otf');
 }
 
 header {
     background-color: rgb(92, 47, 117);
     height: fit-content;
-
     .container-button {
         display: flex;
         justify-content: center;
     }
 
     .button-85 {
+        font-size: 3rem;
+        font-family: 'Magical Demo';
         margin-top: 0%;
         margin-bottom: 2rem;
         font-size: 2rem;
@@ -30,7 +31,7 @@ header {
         touch-action: manipulation;
 
         @include mobile {
-            font-size: 1rem;
+            font-size: 2rem;
         }
     }
 
