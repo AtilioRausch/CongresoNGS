@@ -1,0 +1,40 @@
+footer {
+  height: fit-content;
+  margin: 0%;
+  text-align: left;
+}
+h4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: blueviolet;
+  color: aliceblue;
+  text-align: center;
+}
+.location, .datetime, .map-responsive {
+  margin-bottom: 10px;
+}
+
+.location, .datetime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location i, .datetime i {
+  margin-right: 5px;
+}
+
+.map-responsive {
+  position: relative;
+  overflow: hidden;
+  height: 15rem;
+  width: 100%;
+}
+
+.map-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:  100vw;
+  height: 100%;
+}
