@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Magical Demo';
-  src: url("./fonts/MagicalDemo.otf"); }
+  src: url("../fonts/MagicalDemo.otf"); }
 header {
   background-color: #5c2f75;
   height: fit-content; }
@@ -122,7 +122,7 @@ h4 {
 
 @font-face {
   font-family: 'Magical Demo';
-  src: url("./fonts/MagicalDemo.otf"); }
+  src: url("../fonts/MagicalDemo.otf"); }
 .logo {
   float: right;
   /* Alinea el logo a la derecha */
@@ -145,7 +145,7 @@ h1 {
 #particles-js {
   height: 100vh;
   width: auto;
-  background-image: url("./images/logo_completo_nombre.png");
+  background-image: url("../images/logo_completo_nombre.png");
   background-color: #5c2f75;
   background-position: center;
   background-repeat: no-repeat;
